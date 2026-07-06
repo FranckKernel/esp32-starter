@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+pio run
+pio run -t upload
+pio device monitor
